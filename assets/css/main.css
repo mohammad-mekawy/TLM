@@ -85,6 +85,13 @@ header .form {
     border-radius: 4px;
 }
 
+@media (max-width: 982px) {
+    header .form {
+        width: 90%;
+        margin: 0px auto;
+    }
+}
+
 header .form-group input {
     background: transparent;
     color: #fff;
@@ -254,6 +261,19 @@ header .modal-body h1 {
     border-radius: 4px;
 }
 
+@media (max-width: 982px) {
+    .Testimonials .con {
+        width: 100%;
+    }
+    .Testimonials .owl-carousel .owl-nav button.owl-next,
+    .Testimonials .owl-carousel .owl-nav button.owl-prev {
+        display: none;
+    }
+    .Testimonials {
+        padding: 60px 20px;
+    }
+}
+
 .Testimonials .fas {
     position: absolute;
     top: 20px;
@@ -309,6 +329,12 @@ header .modal-body h1 {
 .email-obt {
     background-image: url(../imgs/Bk2.webp);
     padding: 60px;
+}
+
+@media (max-width: 982px) {
+    .email-obt {
+        padding: 60px 0px;
+    }
 }
 
 .email-obt h2 {
@@ -398,8 +424,10 @@ footer {
     color: #fff;
 }
 
-footer .conc {
-    padding: 0px 110px 0px;
+@media (min-width: 982px) {
+    footer .conc {
+        padding: 0px 110px 0px;
+    }
 }
 
 footer a {
@@ -436,9 +464,6 @@ footer .copyright {
 @media (min-width: 982px) {
     footer .copyright {
         padding: 10px 110px;
-    }
-    footer .copyright p {
-        text-align: center !important;
     }
 }
 
