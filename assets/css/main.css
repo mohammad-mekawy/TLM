@@ -55,7 +55,7 @@ header .btn-primary {
 }
 
 @media (max-width: 982px) {
-    .d-sm-block {
+    .d-b {
         display: block;
         margin: 10px;
     }
