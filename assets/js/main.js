@@ -78,6 +78,11 @@ $(document).ready(function() {
         $('.call-float-div').toggleClass('call-close');
     });
 
+    var wob = $(".wob");
+    wob.mouseenter(function() {
+        $(this).toggleClass("wobble animated")
+    })
+
     //     $(".navbar-nav li").click(function () {
     //         $(this).addClass("active").siblings().removeClass("active")
     //     })
