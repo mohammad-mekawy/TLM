@@ -422,7 +422,15 @@ footer .fab:hover {
 
 footer .copyright {
     background-color: #0c3292;
-    padding: 10px 110px;
+}
+
+@media (min-width: 982px) {
+    footer .copyright {
+        padding: 10px 110px;
+    }
+    footer .copyright p {
+        text-align: center !important;
+    }
 }
 
 
