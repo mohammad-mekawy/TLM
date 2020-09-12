@@ -54,6 +54,13 @@ header .btn-primary {
     border-radius: 7px;
 }
 
+@media (max-width: 982px) {
+    .d-sm-block {
+        display: block;
+        margin: 10px;
+    }
+}
+
 header .modal-dialog {
     margin: 20% auto;
 }
